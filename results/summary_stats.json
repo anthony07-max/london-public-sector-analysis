@@ -1,0 +1,500 @@
+{
+  "months": [
+    "2020-10-01",
+    "2026-09-01"
+  ],
+  "excluded_share_pct": 0.1,
+  "period_totals": {
+    "Oct 2020 to Sep 2021": 772266,
+    "Oct 2021 to Sep 2022": 863429,
+    "Oct 2022 to Sep 2023": 911846,
+    "Oct 2023 to Sep 2024": 931483,
+    "Oct 2024 to Sep 2025": 930878,
+    "Oct 2025 to Sep 2026": 912988
+  },
+  "change_6y_pct": 18.2,
+  "change_1y_pct": -1.9,
+  "category_change_6y_pct": {
+    "Vehicle Offences": -16.5,
+    "Burglary": -12.7,
+    "Drug Offences": -0.2,
+    "Public Order Offences": 2.4,
+    "Arson and Criminal Damage": 3.6,
+    "Miscellaneous Crimes Against Society": 11.7,
+    "Violence Against the Person": 13.2,
+    "Possession of Weapons": 25.2,
+    "Sexual Offences": 27.8,
+    "Robbery": 37.9,
+    "Theft": 66.8
+  },
+  "n_lads_england": 296,
+  "london_rate_total": 100.2,
+  "latest_12m_total": 912988,
+  "westminster_rate": 346.5,
+  "lowest_borough": [
+    "Richmond upon Thames",
+    58.6
+  ],
+  "newham_rate_total": 112.2,
+  "newham_rank_total": 9,
+  "correlations": [
+    {
+      "crime_type": "Drug Offences",
+      "pearson_r": 0.351,
+      "p": 0.049,
+      "spearman_rho": 0.544,
+      "p_spearman": 0.001,
+      "pearson_r_excl_central": 0.763,
+      "p_excl_central": 0.0
+    },
+    {
+      "crime_type": "Violence Against the Person",
+      "pearson_r": 0.444,
+      "p": 0.011,
+      "spearman_rho": 0.553,
+      "p_spearman": 0.001,
+      "pearson_r_excl_central": 0.719,
+      "p_excl_central": 0.0
+    },
+    {
+      "crime_type": "Robbery",
+      "pearson_r": 0.339,
+      "p": 0.058,
+      "spearman_rho": 0.62,
+      "p_spearman": 0.0,
+      "pearson_r_excl_central": 0.601,
+      "p_excl_central": 0.001
+    },
+    {
+      "crime_type": "Possession of Weapons",
+      "pearson_r": 0.395,
+      "p": 0.025,
+      "spearman_rho": 0.601,
+      "p_spearman": 0.0,
+      "pearson_r_excl_central": 0.588,
+      "p_excl_central": 0.001
+    },
+    {
+      "crime_type": "Total",
+      "pearson_r": 0.167,
+      "p": 0.361,
+      "spearman_rho": 0.472,
+      "p_spearman": 0.006,
+      "pearson_r_excl_central": 0.585,
+      "p_excl_central": 0.001
+    },
+    {
+      "crime_type": "Burglary",
+      "pearson_r": 0.261,
+      "p": 0.149,
+      "spearman_rho": 0.421,
+      "p_spearman": 0.016,
+      "pearson_r_excl_central": 0.578,
+      "p_excl_central": 0.001
+    },
+    {
+      "crime_type": "Sexual Offences",
+      "pearson_r": 0.23,
+      "p": 0.206,
+      "spearman_rho": 0.406,
+      "p_spearman": 0.021,
+      "pearson_r_excl_central": 0.524,
+      "p_excl_central": 0.004
+    },
+    {
+      "crime_type": "Arson and Criminal Damage",
+      "pearson_r": 0.237,
+      "p": 0.192,
+      "spearman_rho": 0.315,
+      "p_spearman": 0.079,
+      "pearson_r_excl_central": 0.49,
+      "p_excl_central": 0.007
+    },
+    {
+      "crime_type": "Vehicle Offences",
+      "pearson_r": 0.241,
+      "p": 0.185,
+      "spearman_rho": 0.219,
+      "p_spearman": 0.228,
+      "pearson_r_excl_central": 0.431,
+      "p_excl_central": 0.02
+    },
+    {
+      "crime_type": "Public Order Offences",
+      "pearson_r": 0.152,
+      "p": 0.407,
+      "spearman_rho": 0.327,
+      "p_spearman": 0.068,
+      "pearson_r_excl_central": 0.421,
+      "p_excl_central": 0.023
+    },
+    {
+      "crime_type": "Theft",
+      "pearson_r": 0.058,
+      "p": 0.752,
+      "spearman_rho": 0.367,
+      "p_spearman": 0.039,
+      "pearson_r_excl_central": 0.385,
+      "p_excl_central": 0.039
+    },
+    {
+      "crime_type": "Miscellaneous Crimes Against Society",
+      "pearson_r": 0.08,
+      "p": 0.663,
+      "spearman_rho": 0.466,
+      "p_spearman": 0.007,
+      "pearson_r_excl_central": 0.087,
+      "p_excl_central": 0.653
+    }
+  ],
+  "newham": {
+    "population": 376542,
+    "imd_rank_england": 29,
+    "imd_rank_london": 2,
+    "income_score_pct": 39.0,
+    "income_rank_england": 4,
+    "income_rank_london": 3,
+    "share_lsoas_most_deprived_10pct": 5.4,
+    "london_income_score_median_pct": 26.6
+  },
+  "newham_by_type": [
+    {
+      "crime_type": "Total",
+      "newham_crimes": 42241,
+      "newham_rate": 112.18,
+      "london_rate": 100.25,
+      "newham_vs_london_pct": 11.9,
+      "newham_rank_of_32": 9,
+      "predicted_from_deprivation": 110.9,
+      "residual": 1.28,
+      "residual_z": 0.07,
+      "r2": 0.34
+    },
+    {
+      "crime_type": "Theft",
+      "newham_crimes": 13389,
+      "newham_rate": 35.56,
+      "london_rate": 31.05,
+      "newham_vs_london_pct": 14.5,
+      "newham_rank_of_32": 10,
+      "predicted_from_deprivation": 32.25,
+      "residual": 3.31,
+      "residual_z": 0.28,
+      "r2": 0.15
+    },
+    {
+      "crime_type": "Violence Against the Person",
+      "newham_crimes": 11445,
+      "newham_rate": 30.4,
+      "london_rate": 28.21,
+      "newham_vs_london_pct": 7.73,
+      "newham_rank_of_32": 15,
+      "predicted_from_deprivation": 32.47,
+      "residual": -2.07,
+      "residual_z": -0.59,
+      "r2": 0.52
+    },
+    {
+      "crime_type": "Vehicle Offences",
+      "newham_crimes": 4912,
+      "newham_rate": 13.05,
+      "london_rate": 9.2,
+      "newham_vs_london_pct": 41.82,
+      "newham_rank_of_32": 2,
+      "predicted_from_deprivation": 9.9,
+      "residual": 3.14,
+      "residual_z": 1.99,
+      "r2": 0.19
+    },
+    {
+      "crime_type": "Drug Offences",
+      "newham_crimes": 2442,
+      "newham_rate": 6.49,
+      "london_rate": 5.33,
+      "newham_vs_london_pct": 21.61,
+      "newham_rank_of_32": 8,
+      "predicted_from_deprivation": 6.56,
+      "residual": -0.08,
+      "residual_z": -0.08,
+      "r2": 0.58
+    },
+    {
+      "crime_type": "Public Order Offences",
+      "newham_crimes": 2223,
+      "newham_rate": 5.9,
+      "london_rate": 6.4,
+      "newham_vs_london_pct": -7.81,
+      "newham_rank_of_32": 17,
+      "predicted_from_deprivation": 6.9,
+      "residual": -0.99,
+      "residual_z": -0.74,
+      "r2": 0.18
+    },
+    {
+      "crime_type": "Arson and Criminal Damage",
+      "newham_crimes": 2159,
+      "newham_rate": 5.73,
+      "london_rate": 5.89,
+      "newham_vs_london_pct": -2.59,
+      "newham_rank_of_32": 20,
+      "predicted_from_deprivation": 6.27,
+      "residual": -0.53,
+      "residual_z": -0.75,
+      "r2": 0.24
+    },
+    {
+      "crime_type": "Burglary",
+      "newham_crimes": 1782,
+      "newham_rate": 4.73,
+      "london_rate": 5.24,
+      "newham_vs_london_pct": -9.64,
+      "newham_rank_of_32": 18,
+      "predicted_from_deprivation": 5.98,
+      "residual": -1.25,
+      "residual_z": -1.14,
+      "r2": 0.33
+    },
+    {
+      "crime_type": "Robbery",
+      "newham_crimes": 1760,
+      "newham_rate": 4.67,
+      "london_rate": 3.48,
+      "newham_vs_london_pct": 34.38,
+      "newham_rank_of_32": 7,
+      "predicted_from_deprivation": 4.51,
+      "residual": 0.16,
+      "residual_z": 0.13,
+      "r2": 0.36
+    },
+    {
+      "crime_type": "Sexual Offences",
+      "newham_crimes": 1172,
+      "newham_rate": 3.11,
+      "london_rate": 3.09,
+      "newham_vs_london_pct": 0.76,
+      "newham_rank_of_32": 14,
+      "predicted_from_deprivation": 3.43,
+      "residual": -0.32,
+      "residual_z": -0.56,
+      "r2": 0.27
+    },
+    {
+      "crime_type": "Miscellaneous Crimes Against Society",
+      "newham_crimes": 584,
+      "newham_rate": 1.55,
+      "london_rate": 1.5,
+      "newham_vs_london_pct": 3.27,
+      "newham_rank_of_32": 5,
+      "predicted_from_deprivation": 1.58,
+      "residual": -0.03,
+      "residual_z": -0.03,
+      "r2": 0.01
+    },
+    {
+      "crime_type": "Possession of Weapons",
+      "newham_crimes": 373,
+      "newham_rate": 0.99,
+      "london_rate": 0.85,
+      "newham_vs_london_pct": 16.17,
+      "newham_rank_of_32": 8,
+      "predicted_from_deprivation": 1.05,
+      "residual": -0.06,
+      "residual_z": -0.27,
+      "r2": 0.35
+    }
+  ],
+  "newham_yoy": [
+    {
+      "major": "Total",
+      "latest_12m_newham": 42241,
+      "previous_12m_newham": 41050,
+      "change_pct_newham": 2.9,
+      "latest_12m_rest_of_london": 870747,
+      "previous_12m_rest_of_london": 889828,
+      "change_pct_rest_of_london": -2.1
+    },
+    {
+      "major": "Theft",
+      "latest_12m_newham": 13389,
+      "previous_12m_newham": 14499,
+      "change_pct_newham": -7.7,
+      "latest_12m_rest_of_london": 269428,
+      "previous_12m_rest_of_london": 292278,
+      "change_pct_rest_of_london": -7.8
+    },
+    {
+      "major": "Violence Against the Person",
+      "latest_12m_newham": 11445,
+      "previous_12m_newham": 10186,
+      "change_pct_newham": 12.4,
+      "latest_12m_rest_of_london": 245504,
+      "previous_12m_rest_of_london": 228976,
+      "change_pct_rest_of_london": 7.2
+    },
+    {
+      "major": "Vehicle Offences",
+      "latest_12m_newham": 4912,
+      "previous_12m_newham": 4032,
+      "change_pct_newham": 21.8,
+      "latest_12m_rest_of_london": 78862,
+      "previous_12m_rest_of_london": 85673,
+      "change_pct_rest_of_london": -7.9
+    },
+    {
+      "major": "Drug Offences",
+      "latest_12m_newham": 2442,
+      "previous_12m_newham": 2860,
+      "change_pct_newham": -14.6,
+      "latest_12m_rest_of_london": 46127,
+      "previous_12m_rest_of_london": 51521,
+      "change_pct_rest_of_london": -10.5
+    },
+    {
+      "major": "Public Order Offences",
+      "latest_12m_newham": 2223,
+      "previous_12m_newham": 2107,
+      "change_pct_newham": 5.5,
+      "latest_12m_rest_of_london": 56097,
+      "previous_12m_rest_of_london": 53888,
+      "change_pct_rest_of_london": 4.1
+    },
+    {
+      "major": "Arson and Criminal Damage",
+      "latest_12m_newham": 2159,
+      "previous_12m_newham": 2047,
+      "change_pct_newham": 5.5,
+      "latest_12m_rest_of_london": 51448,
+      "previous_12m_rest_of_london": 53565,
+      "change_pct_rest_of_london": -4.0
+    },
+    {
+      "major": "Burglary",
+      "latest_12m_newham": 1782,
+      "previous_12m_newham": 1606,
+      "change_pct_newham": 11.0,
+      "latest_12m_rest_of_london": 45916,
+      "previous_12m_rest_of_london": 48048,
+      "change_pct_rest_of_london": -4.4
+    },
+    {
+      "major": "Robbery",
+      "latest_12m_newham": 1760,
+      "previous_12m_newham": 1717,
+      "change_pct_newham": 2.5,
+      "latest_12m_rest_of_london": 29917,
+      "previous_12m_rest_of_london": 31566,
+      "change_pct_rest_of_london": -5.2
+    },
+    {
+      "major": "Sexual Offences",
+      "latest_12m_newham": 1172,
+      "previous_12m_newham": 1130,
+      "change_pct_newham": 3.7,
+      "latest_12m_rest_of_london": 26961,
+      "previous_12m_rest_of_london": 26029,
+      "change_pct_rest_of_london": 3.6
+    },
+    {
+      "major": "Miscellaneous Crimes Against Society",
+      "latest_12m_newham": 584,
+      "previous_12m_newham": 555,
+      "change_pct_newham": 5.2,
+      "latest_12m_rest_of_london": 13094,
+      "previous_12m_rest_of_london": 12059,
+      "change_pct_rest_of_london": 8.6
+    },
+    {
+      "major": "Possession of Weapons",
+      "latest_12m_newham": 373,
+      "previous_12m_newham": 311,
+      "change_pct_newham": 19.9,
+      "latest_12m_rest_of_london": 7393,
+      "previous_12m_rest_of_london": 6225,
+      "change_pct_rest_of_london": 18.8
+    }
+  ],
+  "newham_change_6y_pct": 27.1,
+  "rest_change_6y_pct": 17.8,
+  "newham_top_offences": [
+    {
+      "major": "Violence Against the Person",
+      "minor": "VIOLENCE WITHOUT INJURY",
+      "newham_crimes": 5644.0,
+      "newham_rate": 14.99,
+      "london_rate": 13.8,
+      "vs_london_pct": 8.58
+    },
+    {
+      "major": "Theft",
+      "minor": "OTHER THEFT",
+      "newham_crimes": 4595.0,
+      "newham_rate": 12.2,
+      "london_rate": 11.02,
+      "vs_london_pct": 10.71
+    },
+    {
+      "major": "Theft",
+      "minor": "SHOPLIFTING",
+      "newham_crimes": 4306.0,
+      "newham_rate": 11.44,
+      "london_rate": 10.61,
+      "vs_london_pct": 7.79
+    },
+    {
+      "major": "Theft",
+      "minor": "THEFT FROM THE PERSON",
+      "newham_crimes": 3922.0,
+      "newham_rate": 10.42,
+      "london_rate": 7.83,
+      "vs_london_pct": 33.06
+    },
+    {
+      "major": "Violence Against the Person",
+      "minor": "STALKING AND HARASSMENT",
+      "newham_crimes": 2962.0,
+      "newham_rate": 7.87,
+      "london_rate": 7.16,
+      "vs_london_pct": 9.84
+    },
+    {
+      "major": "Violence Against the Person",
+      "minor": "VIOLENCE WITH INJURY",
+      "newham_crimes": 2830.0,
+      "newham_rate": 7.52,
+      "london_rate": 7.21,
+      "vs_london_pct": 4.17
+    },
+    {
+      "major": "Vehicle Offences",
+      "minor": "THEFT FROM A VEHICLE",
+      "newham_crimes": 2758.0,
+      "newham_rate": 7.32,
+      "london_rate": 4.9,
+      "vs_london_pct": 49.36
+    },
+    {
+      "major": "Arson and Criminal Damage",
+      "minor": "CRIMINAL DAMAGE",
+      "newham_crimes": 2083.0,
+      "newham_rate": 5.53,
+      "london_rate": 5.67,
+      "vs_london_pct": -2.47
+    },
+    {
+      "major": "Drug Offences",
+      "minor": "POSSESSION OF DRUGS",
+      "newham_crimes": 1883.0,
+      "newham_rate": 5.0,
+      "london_rate": 3.82,
+      "vs_london_pct": 30.77
+    },
+    {
+      "major": "Vehicle Offences",
+      "minor": "THEFT OR UNAUTH TAKING OF A MOTOR VEH",
+      "newham_crimes": 1775.0,
+      "newham_rate": 4.71,
+      "london_rate": 3.34,
+      "vs_london_pct": 41.02
+    }
+  ]
+}

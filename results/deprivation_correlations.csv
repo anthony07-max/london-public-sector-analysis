@@ -1,0 +1,13 @@
+crime_type,pearson_r,p,spearman_rho,p_spearman,pearson_r_excl_central,p_excl_central
+Drug Offences,0.3514,0.0486,0.5442,0.0013,0.7629,0.0
+Violence Against the Person,0.4437,0.011,0.5532,0.001,0.7186,0.0
+Robbery,0.3389,0.0578,0.6197,0.0002,0.6013,0.0006
+Possession of Weapons,0.3954,0.0251,0.6007,0.0003,0.5877,0.0008
+Total,0.1668,0.3614,0.4721,0.0064,0.5847,0.0009
+Burglary,0.2608,0.1493,0.4212,0.0164,0.5782,0.001
+Sexual Offences,0.2296,0.2062,0.4056,0.0213,0.5242,0.0035
+Arson and Criminal Damage,0.2368,0.192,0.3148,0.0793,0.4903,0.0069
+Vehicle Offences,0.2406,0.1847,0.2193,0.2279,0.4307,0.0197
+Public Order Offences,0.1518,0.4068,0.3267,0.068,0.4215,0.0228
+Theft,0.0582,0.7519,0.3669,0.0389,0.3854,0.0389
+Miscellaneous Crimes Against Society,0.0802,0.6627,0.4657,0.0072,0.0872,0.6528
